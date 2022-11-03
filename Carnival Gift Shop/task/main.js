@@ -150,15 +150,17 @@ function add_tickets() {
 
     if(isNaN(parseInt(choice))) {
         //console.log()
-        console.log(msg.errorBadInput)
+        console.log(msg.errorOutOfRange)
+
+        //console.log(msg.errorBadInput)
         //console.log()
-        return add_tickets()
+        return
     }
 
     if(choice < 0 || choice > 1000) {
         console.log(msg.errorOutOfRange)
         //console.log()
-        return add_tickets()
+        return
     }
 
     user.tickets += parseInt(choice)

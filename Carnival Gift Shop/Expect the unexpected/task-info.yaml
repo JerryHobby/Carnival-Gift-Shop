@@ -473,37 +473,8 @@ files:
   learner_created: false
 feedback_link: https://hyperskill.org/learn/step/21708#comment
 check_profile: hyperskill_node_javascript
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Wrong answer in test #44
-
-    Your program should handle any unexpected input where the user enters the ticket amount.
-
-    Please find below the output of your program during this failed test.
-    Note that the '>' character indicates the beginning of the input line.
-
-    ---
-
-    WELCOME TO THE CARNIVAL GIFT SHOP!
-    Hello friend! Thank you for visiting the carnival!
-    Here's the list of gifts:
-
-    1- Teddy Bear, Cost: 10 tickets
-    2- Big Red Ball, Cost: 5 tickets
-    3- Huge Bear, Cost: 50 tickets
-    4- Candy, Cost: 8 tickets
-    5- Stuffed Tiger, Cost: 15 tickets
-    6- Stuffed Dragon, Cost: 30 tickets
-    7- Skateboard, Cost: 100 tickets
-    8- Toy Car, Cost: 25 tickets
-    9- Basketball, Cost: 20 tickets
-    10- Scary Mask, Cost: 75 tickets
-
-    What do you want to do?
-    1-Buy a gift 2-Add tickets 3-Check tickets 4-Show gifts 5-Exit the shop > 2
-    Enter the ticket amount: > a
-    Please enter a valid number!
-    Enter the ticket amount:
-  time: Thu, 03 Nov 2022 15:21:35 UTC
+  message: <html>Correct solution</html>
+  time: Thu, 03 Nov 2022 15:33:06 UTC
 record: -1
