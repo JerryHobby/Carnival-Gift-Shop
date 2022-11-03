@@ -471,7 +471,7 @@ files:
     if __name__ == '__main__':
         CarnivalGiftShopTest('main').run_tests()
   learner_created: false
-feedback_link: https://hyperskill.org/projects/277/stages/1407/implement#comment
+feedback_link: https://hyperskill.org/learn/step/21708#comment
 check_profile: hyperskill_node_javascript
 status: Failed
 feedback:
@@ -504,8 +504,6 @@ feedback:
     1-Buy a gift 2-Add tickets 3-Check tickets 4-Show gifts 5-Exit the shop > 2
     Enter the ticket amount: > a
     Please enter a valid number!
-
-    What do you want to do?
-    1-Buy a gift 2-Add tickets 3-Check tickets 4-Show gifts 5-Exit the shop
-  time: Thu, 03 Nov 2022 05:05:22 UTC
+    Enter the ticket amount:
+  time: Thu, 03 Nov 2022 15:21:35 UTC
 record: -1

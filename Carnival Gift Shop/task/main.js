@@ -149,16 +149,17 @@ function add_tickets() {
     let choice = input(msg.ticketsPrompt)
 
     if(isNaN(parseInt(choice))) {
+        //console.log()
         console.log(msg.errorBadInput)
-        return
+        //console.log()
+        return add_tickets()
     }
 
     if(choice < 0 || choice > 1000) {
         console.log(msg.errorOutOfRange)
-        return
+        //console.log()
+        return add_tickets()
     }
-
-
 
     user.tickets += parseInt(choice)
     console.log(msg.ticketsBalance + user.tickets)
@@ -167,4 +168,3 @@ function add_tickets() {
 function check_tickets() {
     console.log(msg.ticketsBalance + user.tickets)
 }
-
